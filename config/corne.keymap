@@ -157,10 +157,10 @@
 
         macros {
             bindings = <
-&trans  &trans      &trans                                 &trans   &trans    &trans    &trans    &trans    &trans  &trans     &trans  &trans
-&trans  &alacritty  &mt LG(LS(NUMBER_5)) LS(LG(NUMBER_4))  &docker  &firefox  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
-&trans  &trans      &trans                                 &chrome  &trans    &trans    &navicat  &trans    &trans  &trans     &trans  &trans
-                                                           &trans   &trans    &trans    &trans    &trans    &trans
+&bootloader  &trans      &trans                                 &trans   &trans    &trans    &trans    &trans    &trans  &trans     &trans  &bootloader
+&trans       &alacritty  &mt LG(LS(NUMBER_5)) LS(LG(NUMBER_4))  &docker  &firefox  &trans    &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
+&trans       &trans      &trans                                 &chrome  &trans    &trans    &navicat  &trans    &trans  &trans     &trans  &trans
+                                                                &trans   &trans    &trans    &trans    &trans    &trans
             >;
         };
     };
