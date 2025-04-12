@@ -120,9 +120,9 @@
                                                                          &kp LALT                     &td_mo_1                           &kp SPACE                                      &kp ENTER  &td_mo_2                             &kp LEFT_SHIFT
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>,
-                <&inc_dec_kp LS(TAB) TAB>;
+            /* sensor-bindings = */
+            /*     <&inc_dec_kp C_VOL_DN C_VOL_UP>, */
+            /*     <&inc_dec_kp LS(TAB) TAB>; */
         };
 
         num_layer {
@@ -133,10 +133,10 @@
                                   &trans  &to 0   &trans                            &trans  &trans  &trans
             >;
 
-            sensor-bindings =
-                <&inc_dec_kp F5 F6>,
-                <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
-        };
+        /*     sensor-bindings = */
+        /*         <&inc_dec_kp F5 F6>, */
+        /*         <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>; */
+        /* }; */
 
         symbol_layer {
             bindings = <
